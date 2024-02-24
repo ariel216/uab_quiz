@@ -1,0 +1,39 @@
+---
+import '../assets/base.css'
+const gestion = new Date().getFullYear();
+const title = "UAB Quiz";
+const description = 'Quiz de estudio para Examen de Grado -  UAB';
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="title" content={title} />
+		<meta name="description" content={description} />
+		<meta name="keywords" content="Astro, Svelte, UAB"/>
+		<meta name="author" content="Ariel Espinoza"/>
+		<title>{title}</title>
+	</head>
+	<body class="flex flex-col h-screen bg-gradient-to-r from-slate-900 to-cyan-800 text-white">
+		<header class="flex items-center justify-center mt-6">
+			<h1 class="text-3xl font-bold">{title}</h1> 
+		</header>
+		<nav class="flex flex-row justify-center items-center mx-4 mt-4">			
+			<ul class="flex gap-3">
+				<li><a href="/" class="text-slate-100 text-opacity-60 hover:text-cyan-400">Inicio</a></li>
+				<li><a href="about" class="text-slate-100 text-opacity-60 hover:text-cyan-400">Acerca de</a></li>
+		   </ul>
+		</nav>
+		<main class="flex-grow">
+			<slot/>
+		</main>
+		
+		<footer class="flex h-10 justify-between mx-10 text-sm">
+			<a href="https://ades.dev" target="_blank">adesdev @ {title}</a>
+			<span>{gestion}</span>
+		</footer>
+	</body>
+</html>
