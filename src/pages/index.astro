@@ -1,0 +1,50 @@
+---
+import '../assets/base.css'
+const gestion = new Date().getFullYear();
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>UAB QUiz</title>
+	</head>
+	<body class="flex flex-col h-screen bg-gradient-to-r from-slate-900 to-cyan-800 text-white">
+		<header class="flex items-center justify-center mt-6">
+			<h1 class="text-3xl font-bold">UAB Quiz</h1> 
+		</header>
+		<nav class="flex flex-row justify-center items-center mx-4 mt-4">			
+			<ul class="flex gap-3">
+				<li><a href="#" class="hover:text-cyan-400">Inicio</a></li>
+				<li><a href="#" class="hover:text-cyan-400">Acerca</a></li>
+		   </ul>
+		</nav>
+		<main class="flex-grow">
+			<section class="flex flex-col items-center justify-center mt-14">    
+				<div class="grid grid-flow-row grid-cols-3 gap-2 items-center justify-items-center">
+					<button class="bg-cyan-700 max-w-fit px-2 py-1 rounded-md hover:bg-cyan-800">Aleatorio</button>
+					<button class="bg-cyan-700 max-w-fit px-2 py-1 rounded-md hover:bg-cyan-800">V/F</button>
+					<button class="bg-cyan-700 max-w-fit px-2 py-1 rounded-md hover:bg-cyan-800">Abiertas</button>
+					<button class="bg-cyan-700 max-w-fit px-2 py-1 rounded-md hover:bg-cyan-800">Completar</button>
+					<button class="bg-cyan-700 max-w-fit px-2 py-1 rounded-md hover:bg-cyan-800">Multiopciones</button>
+				</div>
+				<article class="bg-white bg-opacity-15 shadow-lg rounded-2xl p-4 max-w-sm md:max-w-md text-center mt-5">
+					<h2 class="text-2xl">Pregunta</h2>
+					<p class="text-balance mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quis! Vero nesciunt unde pariatur explicabo.</p>
+					<div class="inline-flex gap-3 mt-3">
+						<button class="text-slate-900 bg-slate-50 max-w-fit px-2 py-1 rounded-md hover:bg-slate-300">Verdadero</button>
+						<button class="text-slate-900 bg-slate-50 max-w-fit px-2 py-1 rounded-md hover:bg-slate-300">Falso</button>
+					</div>						
+						
+				</article>      
+			</section>
+		</main>
+		
+		<footer class="flex h-10 justify-between mx-10 text-sm">
+			<a href="https://ades.dev" target="_blank">adesdev @ Uab Quiz</a>
+			<span>{gestion}</span>
+		</footer>
+	</body>
+</html>
