@@ -1,5 +1,7 @@
 <script>
-    const questions = [{"id":1, "question":"Pregunta 1"},{"id":2, "question":"Pregunta 2"},{"id":3, "question":"Pregunta 3"}];
+    import questions from './data.json';
+
+    //const questions = [{"id":1, "question":"Pregunta 1"},{"id":2, "question":"Pregunta 2"},{"id":3, "question":"Pregunta 3"}];
 	let id = 0;
     let question = "";
 

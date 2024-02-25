@@ -1,0 +1,110 @@
+[
+    {
+        "type":1,
+        "label":"Falso / Verdadero",
+        "questions":[
+            {
+                "id":1, 
+                "question":"Pregunta 1", 
+                "answers":[
+                    {"id":1, "label":"Verdadero"}, {"id":2, "label":"Falso"}
+                ],
+                "answer":1
+            },
+            {
+                "id":2, 
+                "question":"Pregunta 1", 
+                "answers":[
+                    {"id":1, "label":"Verdadero"}, {"id":2, "label":"Falso"}
+                ],
+                "answer":2
+            },
+            {
+                "id":3, 
+                "question":"Pregunta 1", 
+                "answers":[
+                    {"id":1, "label":"Verdadero"}, {"id":2, "label":"Falso"}
+                ],
+                "answer":1
+            }
+        ]
+    },
+    {
+        "type":2,
+        "label":"Opción Múltiple",
+        "questions":[
+            {
+                "id":1, 
+                "question":"Pregunta 1", 
+                "answers":[
+                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
+                ],
+                "answer":1
+            },
+            {
+                "id":2, 
+                "question":"Pregunta 1", 
+                "answers":[
+                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
+                ],
+                "answer":2
+            },
+            {
+                "id":3, 
+                "question":"Pregunta 1", 
+                "answers":[
+                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
+                ],
+                "answer":1
+            }
+        ]
+    },
+    {
+        "type":3,
+        "label":"Completar",
+        "questions":[
+            {
+                "id":1, 
+                "question":"Pregunta 1", 
+                "answers":[
+                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
+                ]
+            },
+            {
+                "id":2, 
+                "question":"Pregunta 1", 
+                "answers":[
+                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
+                ]
+            },
+            {
+                "id":3, 
+                "question":"Pregunta 1", 
+                "answers":[
+                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
+                ]
+            }
+        ]
+    },
+    {
+        "type":4,
+        "label":"Abiertas",
+        "questions":[
+            {
+                "id":1, 
+                "question":"Pregunta 1", 
+                "answer":""
+            },
+            {
+                "id":2, 
+                "question":"Pregunta 1", 
+                "answer":""
+            },
+            {
+                "id":3, 
+                "question":"Pregunta 1", 
+                "answer":""
+            }
+        ]
+    }
+]
