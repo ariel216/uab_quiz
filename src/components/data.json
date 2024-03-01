@@ -1,110 +1,229 @@
-[
-    {
-        "type":1,
-        "label":"Falso / Verdadero",
-        "questions":[
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "La ingeniería de software se centra principalmente en la construcción de hardware.",
+        "answers": [
+          {
+            "id": 1,
+            "label": "Verdadero"
+          },
+          {
+            "id": 2,
+            "label": "Falso"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 2,
+        "question": "El modelo en espiral es un modelo de desarrollo de software en cascada mejorado.",
+        "answers": [
+          {
+            "id": 1,
+            "label": "Verdadero"
+          },
+          {
+            "id": 2,
+            "label": "Falso"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 3,
+        "question": "El principio KISS (Keep It Simple, Stupid) sugiere que las soluciones simples son generalmente mejores que las complejas.",
+        "answers": [
+          {
+            "id": 1,
+            "label": "Verdadero"
+          },
+          {
+            "id": 2,
+            "label": "Falso"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 4,
+        "question": "La programación extrema (XP) es un enfoque de desarrollo de software que no favorece la comunicación cercana con el cliente.",
+        "answers": [
+          {
+            "id": 1,
+            "label": "Verdadero"
+          },
+          {
+            "id": 2,
+            "label": "Falso"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 5,
+        "question": "La reingeniería de software se refiere a la modificación de un sistema existente sin cambiar su funcionalidad.",
+        "answers": [
+          {
+            "id": 1,
+            "label": "Verdadero"
+          },
+          {
+            "id": 2,
+            "label": "Falso"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 6,
+        "question": "El modelo V describe una secuencia lineal de actividades de desarrollo de software.",
+        "answers": [
+          {
+            "id": 1,
+            "label": "Verdadero"
+          },
+          {
+            "id": 2,
+            "label": "Falso"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 7,
+        "question": "La ingeniería inversa se utiliza para crear documentación de software a partir del código fuente.",
+        "answers": [
+          {
+            "id": 1,
+            "label": "Verdadero"
+          },
+          {
+            "id": 2,
+            "label": "Falso"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 8,
+        "question": "El principio de responsabilidad única sugiere que una clase debe tener solo una razón para cambiar.",
+        "answers": [
+          {
+            "id": 1,
+            "label": "Verdadero"
+          },
+          {
+            "id": 2,
+            "label": "Falso"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": 9,
+        "question": "El acoplamiento débil entre módulos en un sistema es deseable para mejorar la mantenibilidad.",
+        "answers": [
+          {
+            "id": 1,
+            "label": "Verdadero"
+          },
+          {
+            "id": 2,
+            "label": "Falso"
+          }
+        ],
+        "answer": 1
+        },
+        {
+          "id": 10,
+          "question": "La prueba de caja blanca se centra en probar el comportamiento externo del software.",
+          "answers": [
             {
-                "id":1, 
-                "question":"Pregunta 1", 
-                "answers":[
-                    {"id":1, "label":"Verdadero"}, {"id":2, "label":"Falso"}
-                ],
-                "answer":1
+              "id": 1,
+              "label": "Verdadero"
             },
             {
-                "id":2, 
-                "question":"Pregunta 1", 
-                "answers":[
-                    {"id":1, "label":"Verdadero"}, {"id":2, "label":"Falso"}
-                ],
-                "answer":2
-            },
-            {
-                "id":3, 
-                "question":"Pregunta 1", 
-                "answers":[
-                    {"id":1, "label":"Verdadero"}, {"id":2, "label":"Falso"}
-                ],
-                "answer":1
+              "id": 2,
+              "label": "Falso"
             }
-        ]
-    },
-    {
-        "type":2,
-        "label":"Opción Múltiple",
-        "questions":[
+          ],
+          "answer": 2
+        },
+        {
+          "id": 11,
+          "question": "La refactorización es un proceso que implica agregar nuevas funciones al código existente.",
+          "answers": [
             {
-                "id":1, 
-                "question":"Pregunta 1", 
-                "answers":[
-                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
-                ],
-                "answer":1
+              "id": 1,
+              "label": "Verdadero"
             },
             {
-                "id":2, 
-                "question":"Pregunta 1", 
-                "answers":[
-                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
-                ],
-                "answer":2
-            },
-            {
-                "id":3, 
-                "question":"Pregunta 1", 
-                "answers":[
-                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
-                ],
-                "answer":1
+              "id": 2,
+              "label": "Falso"
             }
-        ]
-    },
-    {
-        "type":3,
-        "label":"Completar",
-        "questions":[
+          ],
+          "answer": 2
+        },
+        {
+          "id": 12,
+          "question": "La programación en parejas (pair programming) es una práctica común en la metodología ágil.",
+          "answers": [
             {
-                "id":1, 
-                "question":"Pregunta 1", 
-                "answers":[
-                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
-                ]
+              "id": 1,
+              "label": "Verdadero"
             },
             {
-                "id":2, 
-                "question":"Pregunta 1", 
-                "answers":[
-                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
-                ]
-            },
-            {
-                "id":3, 
-                "question":"Pregunta 1", 
-                "answers":[
-                    {"id":1, "label":"Opt 1"}, {"id":2, "label":"Opt 2"}, {"id":3, "label":"Opt 3"}
-                ]
+              "id": 2,
+              "label": "Falso"
             }
-        ]
-    },
-    {
-        "type":4,
-        "label":"Abiertas",
-        "questions":[
+          ],
+          "answer": 1
+        },
+        {
+          "id": 13,
+          "question": "El principio de inversión de dependencias (Dependency Inversion) sugiere que los módulos de alto nivel no deben depender de los módulos de bajo nivel.",
+          "answers": [
             {
-                "id":1, 
-                "question":"Pregunta 1", 
-                "answer":""
+              "id": 1,
+              "label": "Verdadero"
             },
             {
-                "id":2, 
-                "question":"Pregunta 1", 
-                "answer":""
-            },
-            {
-                "id":3, 
-                "question":"Pregunta 1", 
-                "answer":""
+              "id": 2,
+              "label": "Falso"
             }
-        ]
-    }
-]
+          ],
+          "answer": 1
+        },
+        {
+          "id": 14,
+          "question": "La prueba de aceptación del usuario se lleva a cabo antes de la implementación del software.",
+          "answers": [
+            {
+              "id": 1,
+              "label": "Verdadero"
+            },
+            {
+              "id": 2,
+              "label": "Falso"
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "id": 15,
+          "question": "El modelo de madurez CMMI se enfoca principalmente en mejorar la eficiencia del desarrollo de software.",
+          "answers": [
+            {
+              "id": 1,
+              "label": "Verdadero"
+            },
+            {
+              "id": 2,
+              "label": "Falso"
+            }
+          ],
+          "answer": 1
+        }
+    ]
+}

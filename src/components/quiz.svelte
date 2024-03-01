@@ -3,62 +3,69 @@ import data from './banco1.json';
 
     const total = data.questions.length;
     const questions = data.questions;
-    let count = 0;
+    let count = 1;
 	let question = "";
     let withAnswer = false;
-    let myAnswers = [];
-    let labelBtnNext;
-    let finalizado = false;
-    const setQuestion = (id_param)=>{
-        if(id_param > 0 && id_param<=total){           
-            question = questions.find(obj => obj.id === Number(id_param));
-            count++;
-        }        
+    let myAnswers = []; //
+    let nextBtn = true;
+    let state = false; //
+    let results = false; //
+    
+    const handleInit = ()=>{        
+        myAnswers = [];
+        setQuestion();
+        state=true;
+        results=false;
+        count=1;
+        nextBtn=true;
     }
-    const handleInit = ()=>{    
-        count=1
-        myAnswers = [];    
-        setQuestion(count);
+
+    const setQuestion = ()=>{
+        if(count > 0 && count<=total){           
+            question = questions.find(obj => obj.id === Number(count));
+        }        
     }
         
     const handleNext = ()=>{     
-        withAnswer = false;   
-        setQuestion(count); 
+        withAnswer = false;
+        count++;
+        setQuestion(); 
         var ele = document.getElementsByName("answer");
-        for(var i=0;i<ele.length;i++)
+        for(let i=0;i<ele.length;i++)
             ele[i].checked = false;
     }
 
-    const handleAnswer =(e)=>{           
-        //verifica conteo
-        if(count<=total){
-            labelBtnNext= 'Siguiente';
-            myAnswers.push({
-                id_question: question.id,
-                id_answer: Number(e.target.value),
-                correct_answer: question.answer
-            });
-            console.log(myAnswers);
-        }else{
-            labelBtnNext= 'FINALIZAR';
-            //mostrar resultados            
-        }    
-        if(count==(total+2)){
-            finalizado=true;
-        }
-        withAnswer = true;   
+    const handleAnswer =(e)=>{ 
+        withAnswer = true; 
+        if(count==total){
+            //question:"" 
+            nextBtn= false; 
+        }  
+        myAnswers.push({
+            id_question: question.id,
+            id_answer: Number(e.target.value),
+            correct_answer: question.answer,
+            answer: question.answers.find(obj => obj.id === Number(question.answer)),
+            question:question.question
+        });
+        //console.log(myAnswers);
+    }
+
+    const showResults =()=>{
+        results=true;
+        //console.log('muestra resultados');
     }
 
 </script>
 
-<section class="flex flex-col items-center justify-center mt-14 ">    
-    <div class="gap-2 items-center justify-items-center">
-        {#if count==0}
-            <button class="text-slate-900 bg-slate-50 max-w-fit px-2 py-1 rounded-md hover:bg-slate-300" on:click={handleInit}>Iniciar</button>       
-        {/if}
-    </div>
-    {#if count>0}        
-        {#if !finalizado}
+<section class="flex flex-col items-center justify-center mt-14 ">  
+    {count} | {total}
+    {#if !state}  
+        <div class="gap-2 items-center justify-items-center">        
+            <button class="text-slate-900 bg-slate-50 max-w-fit px-2 py-1 rounded-md hover:bg-slate-300" on:click={handleInit}>Iniciar</button>
+        </div>    
+    {:else}
+        {#if !results}  
             <article class="block h-2/3 w-1/2 bg-white bg-opacity-15 shadow-lg rounded-2xl p-4 w-sm text-center mt-5">
                 <h2 class="text-2xl">Pregunta {question.id}</h2>
                 <p class="text-balance mt-3">{question.question}</p>
@@ -71,28 +78,31 @@ import data from './banco1.json';
             </article>     
             <div class="flex mt-8">
                 {#if withAnswer}
-                    <button class="bg-cyan-700 max-w-fit px-3 py-2 rounded-md hover:bg-cyan-800" on:click={handleNext}>{labelBtnNext}</button>
+                    {#if nextBtn}
+                        <button class="bg-cyan-700 max-w-fit px-3 py-2 rounded-md hover:bg-cyan-800" on:click={handleNext}>Siguiente</button>
+                    {:else}
+                        <button class="bg-cyan-700 max-w-fit px-3 py-2 rounded-md hover:bg-cyan-800" on:click={showResults}>FINALIZAR</button>
+                    {/if}                    
                 {/if}            
             </div>
         {:else}            
-            <article class="flex-1 h-2/3 w-1/2 bg-white bg-opacity-15 shadow-lg rounded-2xl p-4 w-md text-center mt-5">
-                <h3 class="text-2xl">Resultados</h3>
-                <div class="grid grid-cols-10 space-y-2">
-                    {#each myAnswers as { id_question, id_answer, correct_answer }, i}
-                        {#if id_answer===correct_answer}
-                            <span class="bg-emerald-600 w-10 p-2 rounded-full align-middle">
-                                <p title={correct_answer}>{id_question}</p>
-                            </span>
+            <article class="flex-1 h-2/3 w-1/2 bg-white bg-opacity-15 shadow-lg rounded-2xl p-4 w-md mt-5">
+                <h3 class="text-2xl text-center">Resultados</h3>                
+                {#each myAnswers as { id_question, question, answer, id_answer, correct_answer }, i}
+                    <div class="flex flex-col ml-4 mt-4 space-y-2">
+                        <p>{id_question} - <span class="text-sm">{question}</span></p>
+                        {#if id_answer!==correct_answer}
+                            <p class="bg-red-500 w-fit px-2 rounded-md">{answer.label}</p>
                         {:else}
-                            <span class="bg-red-500 w-10 p-2 rounded-full align-middle">
-                                <p title={correct_answer}>{id_question}</p>
-                            </span>
-                        {/if}                        
-                    {/each}
-                </div>
-                <button class="text-slate-900 bg-slate-50 max-w-fit px-2 py-1 rounded-md hover:bg-slate-300" on:click={handleInit}>Reiniciar</button>       
+                            <p class="bg-green-500 w-fit px-2 rounded-md">{answer.label}</p>
+                        {/if}
+                        
+                    </div>
+                {/each}
+                <div class="mt-5 text-center">
+                    <button class="text-slate-900 bg-slate-50 max-w-fit px-2 py-1 rounded-md hover:bg-slate-300" on:click={handleInit}>Reiniciar</button>       
+                </div>                
             </article> 
         {/if}
-    {/if}
-         
+    {/if}     
 </section>
