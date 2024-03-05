@@ -74,14 +74,14 @@ import data from './banco1.json';
                 <h2 class="text-2xl">Pregunta {question.id}</h2>
                 <p class="text-balance mt-3">{question.question}</p>
                 <div class="inline-flex gap-3 mt-8">
-                    {#if question.type===1}
+                    {#if question.type===2}
                         {#each question.answers as { id, label }, i}
                             <label for={id} class="hover:cursor-pointer">{label}</label>
                             <input type="radio" name="answer" id={id} value={id} class="w-6" on:change={handleAnswer}>
                         {/each}   
                     {:else}                        
                         {#each question.answers as { id, label }, i}                            
-                            <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="answer" placeholder={label} on:blur={handleAnswer}>
+                            <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="answer" placeholder="Separa por comas (,) cada palabra" on:blur={handleAnswer}>
                         {/each}  
                     {/if}                                 
                 </div>            
