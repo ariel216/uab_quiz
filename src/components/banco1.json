@@ -88,7 +88,7 @@
           "label": "Falso"
         }
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 7,
@@ -208,7 +208,7 @@
             "label": "Falso"
           }
         ],
-        "answer": 2
+        "answer": 1
       },
       {
         "id": 15,
@@ -223,7 +223,7 @@
             "label": "Falso"
           }
         ],
-        "answer": 1
+        "answer": 2
       }
   ]
 }

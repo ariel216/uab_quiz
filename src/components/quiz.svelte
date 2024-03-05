@@ -4,20 +4,21 @@ import data from './banco1.json';
     const total = data.questions.length;
     const questions = data.questions;
     let count = 1;
-	let question = "";
+	let question = {};
     let withAnswer = false;
     let myAnswers = []; //
     let nextBtn = true;
     let state = false; //
     let results = false; //
     
-    const handleInit = ()=>{        
-        myAnswers = [];
-        setQuestion();
+    const handleInit = ()=>{
+        question = {};        
+        myAnswers = [];        
         state=true;
         results=false;
         count=1;
         nextBtn=true;
+        setQuestion();
     }
 
     const setQuestion = ()=>{
@@ -38,22 +39,25 @@ import data from './banco1.json';
     const handleAnswer =(e)=>{ 
         withAnswer = true; 
         if(count==total){
-            //question:"" 
-            nextBtn= false; 
+            nextBtn = false; 
         }  
+        let id_answer;
+        if(question.type==1){
+            id_answer=Number(e.target.value)
+        }else{
+            id_answer=e.target.value
+        }
         myAnswers.push({
             id_question: question.id,
-            id_answer: Number(e.target.value),
+            id_answer,
             correct_answer: question.answer,
-            answer: question.answers.find(obj => obj.id === Number(question.answer)),
+            answer: question.answers.find(obj => obj.id === question.answer),
             question:question.question
         });
-        //console.log(myAnswers);
     }
 
     const showResults =()=>{
         results=true;
-        //console.log('muestra resultados');
     }
 
 </script>
@@ -70,10 +74,16 @@ import data from './banco1.json';
                 <h2 class="text-2xl">Pregunta {question.id}</h2>
                 <p class="text-balance mt-3">{question.question}</p>
                 <div class="inline-flex gap-3 mt-8">
-                    {#each question.answers as { id, label }, i}
-                        <label for={id} class="hover:cursor-pointer">{label}</label>
-                        <input type="radio" name="answer" id={id} value={id} class="w-6" on:change={handleAnswer}>
-                    {/each}                
+                    {#if question.type===1}
+                        {#each question.answers as { id, label }, i}
+                            <label for={id} class="hover:cursor-pointer">{label}</label>
+                            <input type="radio" name="answer" id={id} value={id} class="w-6" on:change={handleAnswer}>
+                        {/each}   
+                    {:else}                        
+                        {#each question.answers as { id, label }, i}                            
+                            <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="answer" placeholder={label} on:blur={handleAnswer}>
+                        {/each}  
+                    {/if}                                 
                 </div>            
             </article>     
             <div class="flex mt-8">
@@ -87,10 +97,11 @@ import data from './banco1.json';
             </div>
         {:else}            
             <article class="flex-1 h-2/3 w-1/2 bg-white bg-opacity-15 shadow-lg rounded-2xl p-4 w-md mt-5">
-                <h3 class="text-2xl text-center">Resultados</h3>                
+                <h3 class="text-2xl text-center">Resultados </h3>                
                 {#each myAnswers as { id_question, question, answer, id_answer, correct_answer }, i}
                     <div class="flex flex-col ml-4 mt-4 space-y-2">
                         <p>{id_question} - <span class="text-sm">{question}</span></p>
+                        {id_answer} {correct_answer}
                         {#if id_answer!==correct_answer}
                             <p class="bg-red-500 w-fit px-2 rounded-md">{answer.label}</p>
                         {:else}
