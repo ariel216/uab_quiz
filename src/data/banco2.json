@@ -1,0 +1,805 @@
+{
+  "questions":
+[
+    {
+        "id": 1,
+        "question": "¿Cuál es el time box máximo para un Sprint?",
+        "type": 1,
+        "answers": [
+            {
+                "id": 1,
+                "label": "a) 4 horas"
+            },
+            {
+                "id": 2,
+                "label": "b) 15 minutos"
+            },
+            {
+                "id": 3,
+                "label": "c) Depende del producto, proyecto o servicio, y hasta 4 semanas"
+            },
+            {
+                "id": 4,
+                "label": "d) 2 horas"
+            }
+        ],
+        "answer": 3
+    },
+    {
+        "id": 2,
+        "question": "El Scrum Master es el responsable de asegurar que Scrum es entendido y adoptado.",
+        "type": 1,
+        "answers": [
+            {
+                "id": 1,
+                "label": "a) Verdadero"
+            },
+            {
+                "id": 2,
+                "label": "b) Falso"
+            }
+        ],
+        "answer": 1
+    },
+    {
+        "id": 3,
+        "question": "¿Cuál de los siguientes es un valor del Manifiesto Ágil?",
+        "type": 1,
+        "answers": [
+            {
+                "id": 1,
+                "label": "a) Equipo sobre el gestor de proyectos"
+            },
+            {
+                "id": 2,
+                "label": "b) Responder al cambio sobre el seguimiento de un plan"
+            },
+            {
+                "id": 3,
+                "label": "c) Siguiendo un plan sobre la respuesta al cambio"
+            },
+            {
+                "id": 4,
+                "label": "d) La negociación del contrato sobre seguir un plan"
+            }
+        ],
+        "answer": 2
+    },
+    {
+        "id": 4,
+        "question": "¿Quién es el encargado de enseñar al equipo que debe permanecer dentro de los time-box en la Sprint Retrospective del Sprint?",
+        "type": 1,
+        "answers": [
+            {
+                "id": 1,
+                "label": "a) Scrum Team"
+            },
+            {
+                "id": 2,
+                "label": "b) Stakeholders"
+            },
+            {
+                "id": 3,
+                "label": "c) Product Owner"
+            },
+            {
+                "id": 4,
+                "label": "d) Scrum Master"
+            }
+        ],
+        "answer": 4
+    },
+    {
+        "id": 5,
+        "question": "Los Scrum Masters se aseguran que el Scrum Team trabaja ajustándose a la teoría, prácticas y reglas de Scrum.",
+        "type": 1,
+        "answers": [
+            {
+                "id": 1,
+                "label": "a) Verdadero"
+            },
+            {
+                "id": 2,
+                "label": "b) Falso"
+            }
+        ],
+        "answer": 1
+    },
+    {
+        "id": 6,
+        "question": "Todos los Sprint pertenecientes a un mismo proyecto o producto tienen la misma definición de Done.",
+        "type": 1,
+        "answers": [
+            {
+                "id": 1,
+                "label": "a) Verdadero"
+            },
+            {
+                "id": 2,
+                "label": "b) Falso"
+            }
+        ],
+        "answer": 2
+    },
+    {
+        "id": 7,
+        "question": "¿Cuál de los siguientes es un valor del Manifiesto Ágil?",
+        "type": 1,
+        "answers": [
+            {
+                "id": 1,
+                "label": "a) Equipo sobre el gestor de proyectos"
+            },
+            {
+                "id": 2,
+                "label": "b) Responder al cambio sobre el seguimiento de un plan"
+            },
+            {
+                "id": 3,
+                "label": "c) Siguiendo un plan sobre la respuesta al cambio"
+            },
+            {
+                "id": 4,
+                "label": "d) La negociación del contrato sobre seguir un plan"
+            }
+        ],
+        "answer": 2
+    },
+    {
+        "id": 8,
+        "question": "¿El Scrum Master o Product Owner tienen el control sobre el desempeño de los Developers?",
+        "type": 1,
+        "answers": [
+            {
+                "id": 1,
+                "label": "a) El Scrum Master"
+            },
+            {
+                "id": 2,
+                "label": "b) El Product Owner"
+            },
+            {
+                "id": 3,
+                "label": "c) Ambos"
+            },
+            {
+                "id": 4,
+                "label": "d) Ninguno"
+            }
+        ],
+        "answer": 4
+    },
+    {
+        "id": 9,
+        "question": "Scrum prescribe cuatro eventos formales que están contenidos dentro del Sprint, estos enfocados en la inspección y adaptación del desarrollo del producto. Los eventos son:",
+        "type": 1,
+        "answers": [
+            {
+                "id": 1,
+                "label": "a) Solo 1 y 2"
+            },
+            {
+                "id": 2,
+                "label": "b) Solo 1, 2 y 3"
+            },
+            {
+                "id": 3,
+                "label": "c) Solo 1, 2 y 4"
+            },
+            {
+                "id": 4,
+                "label": "d) Todas las opciones"
+            }
+        ],
+        "answer": 4
+    },
+    {
+        "id": 10,
+        "question": "¿Cuándo comienza el segundo Sprint?",
+        "type": 1,
+        "answers": [
+            {
+                "id": 1,
+                "label": "a) Inmediatamente después del primer sprint"
+            },
+            {
+                "id": 2,
+                "label": "b) Cuando el CEO decide"
+            },
+            {
+                "id": 3,
+                "label": "c) Cuando el Team decide"
+            },
+            {
+                "id": 4,
+                "label": "d) Antes de que el primer Sprint termine"
+            }
+        ],
+        "answer": 1
+    },
+    {
+        "id": 11,
+        "question": "La refactorización es un proceso que implica agregar nuevas funciones al código existente.",
+        "type": 1,
+        "answers": [
+            {
+                "id": 1,
+                "label": "Verdadero"
+            },
+            {
+                "id": 2,
+                "label": "Falso"
+            }
+        ],
+        "answer": 2
+    },
+
+    {
+      "id": 12,
+      "question": "La programación en parejas (pair programming) es una práctica común en la metodología ágil.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 1
+  },
+  {
+      "id": 13,
+      "question": "El principio de inversión de dependencias (Dependency Inversion) sugiere que los módulos de alto nivel no deben depender de los módulos de bajo nivel.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 1
+  },
+  {
+      "id": 14,
+      "question": "La prueba de aceptación del usuario se lleva a cabo antes de la implementación del software.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 2
+  },
+  {
+      "id": 15,
+      "question": "El modelo de madurez CMMI se enfoca principalmente en mejorar la eficiencia del desarrollo de software.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 1
+  },
+  {
+      "id": 16,
+      "question": "¿Cuál de los siguientes no es un modelo de ciclo de vida de desarrollo de software?",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "a) Modelo en espiral"
+          },
+          {
+              "id": 2,
+              "label": "b) Modelo en cascada"
+          },
+          {
+              "id": 3,
+              "label": "c) Modelo de prototipos"
+          },
+          {
+              "id": 4,
+              "label": "d) Modelo de cascada iterativa"
+          }
+      ],
+      "answer": 4
+  },
+  {
+      "id": 17,
+      "question": "¿Qué fase del ciclo de vida de desarrollo de software se centra en la identificación de los requisitos del sistema?",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "a) Diseño"
+          },
+          {
+              "id": 2,
+              "label": "b) Implementación"
+          },
+          {
+              "id": 3,
+              "label": "c) Pruebas"
+          },
+          {
+              "id": 4,
+              "label": "d) Ingeniería de requisitos"
+          }
+      ],
+      "answer": 4
+  },
+  {
+      "id": 18,
+      "question": "¿Cuál de las siguientes actividades no forma parte del proceso de gestión de la configuración?",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "a) Control de cambios"
+          },
+          {
+              "id": 2,
+              "label": "b) Identificación de configuración"
+          },
+          {
+              "id": 3,
+              "label": "c) Desarrollo de software"
+          },
+          {
+              "id": 4,
+              "label": "d) Auditoría de configuración"
+          }
+      ],
+      "answer": 3
+  },
+  {
+      "id": 19,
+      "question": "¿Cuál de las siguientes métricas se utiliza comúnmente para medir la complejidad del código?",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "a) LOC (Líneas de Código)"
+          },
+          {
+              "id": 2,
+              "label": "b) Tiempo de ejecución"
+          },
+          {
+              "id": 3,
+              "label": "c) Número de pruebas"
+          },
+          {
+              "id": 4,
+              "label": "d) Tamaño de pantalla"
+          }
+      ],
+      "answer": 1
+  },
+  {
+      "id": 20,
+      "question": "¿Cuál es el propósito principal de las pruebas de aceptación del usuario?",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "a) Identificar errores en el código"
+          },
+          {
+              "id": 2,
+              "label": "b) Verificar la funcionalidad del sistema"
+          },
+          {
+              "id": 3,
+              "label": "c) Evaluar el rendimiento del sistema"
+          },
+          {
+              "id": 4,
+              "label": "d) Validar los requisitos del usuario"
+          }
+      ],
+      "answer": 4
+  },
+    {
+      "id": 21,
+      "question": "El hacking ético implica realizar pruebas de seguridad en sistemas informáticos para identificar vulnerabilidades y mejorar la seguridad.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 1
+  },
+  {
+      "id": 22,
+      "question": "El phishing es una técnica de hacking ético que implica el envío de correos electrónicos fraudulentos para obtener información confidencial.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 2
+  },
+  {
+      "id": 23,
+      "question": "Un 'bug bounty program' es un programa que recompensa a los hackers éticos por encontrar y reportar errores de seguridad en sistemas.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 1
+  },
+  {
+      "id": 24,
+      "question": "El objetivo principal del hacking ético es causar daño a los sistemas y redes.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 2
+  },
+  {
+      "id": 25,
+      "question": "El 'reconocimiento' es una fase común en las pruebas de penetración que implica recopilar información sobre el objetivo.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 1
+  },
+  {
+      "id": 26,
+      "question": "El hacking ético implica el acceso no autorizado a sistemas y redes con fines maliciosos.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 2
+  },
+  {
+      "id": 27,
+      "question": "Un firewall es un dispositivo que se utiliza para prevenir el acceso no autorizado a una red.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 1
+  },
+  {
+      "id": 28,
+      "question": "El hacking ético no tiene ética ni principios morales asociados.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 2
+  },
+  {
+      "id": 29,
+      "question": "El 'sniffing' es una técnica de hacking ético que implica la interceptación y análisis de tráfico de red.",
+      "type": 1,
+      "answers": [
+          {
+              "id": 1,
+              "label": "Verdadero"
+          },
+          {
+              "id": 2,
+              "label": "Falso"
+          }
+      ],
+      "answer": 1
+  },
+  {
+    "id": 31,
+    "question": "La documentación de software proporciona _______ para entender y mantener el sistema.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "informacion",
+            "label": ""
+        }
+    ],
+    "answer": "informacion"
+},
+{
+    "id": 32,
+    "question": "El proceso de evaluación y mejora continua del software se conoce como _______.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "mejora continua",
+            "label": ""
+        }
+    ],
+    "answer": "mejora continua"
+},
+{
+    "id": 33,
+    "question": "La técnica de desarrollo que se basa en la entrega frecuente y la retroalimentación continua es conocida como desarrollo _______.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "agil",
+            "label": ""
+        }
+    ],
+    "answer": "agil"
+},
+{
+    "id": 34,
+    "question": "El modelo de desarrollo que se enfoca en la construcción de pequeños incrementos de funcionalidad es el modelo _______.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "iterativo incremental",
+            "label": ""
+        }
+    ],
+    "answer": "iterativo incremental"
+},
+{
+    "id": 35,
+    "question": "El principio SOLID que sugiere que las clases deben estar abiertas para la extensión pero cerradas para la _______ es el principio de _______.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "modificacion,LISCOP",
+            "label": ""
+        }
+    ],
+    "answer": "modificacion,LISCOP"
+},
+{
+    "id": 36,
+    "question": "El modelo de desarrollo de software que se basa en la entrega continua e incremental de software funcional es conocido como desarrollo _______.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "iterativo incremental",
+            "label": ""
+        }
+    ],
+    "answer": "iterativo incremental"
+},
+{
+    "id": 37,
+    "question": "El principio SOLID que sugiere que una clase debe tener solo una razón para cambiar es el principio de _______.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "responsabilidad unica",
+            "label": ""
+        }
+    ],
+    "answer": "responsabilidad unica"
+},
+{
+    "id": 38,
+    "question": "La técnica de desarrollo que implica la creación de pequeños incrementos de funcionalidad en ciclos cortos se llama desarrollo _______.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "iterativo",
+            "label": ""
+        }
+    ],
+    "answer": "iterativo"
+},
+{
+    "id": 39,
+    "question": "El modelo de ciclo de vida de desarrollo de software que implica iteraciones y evaluación de riesgos en cada fase es el modelo en _______.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "espiral",
+            "label": ""
+        }
+    ],
+    "answer": "espiral"
+},
+{
+    "id": 40,
+    "question": "La mejora continua de procesos en el desarrollo de software se aborda mediante el modelo de madurez _______.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "CMMI",
+            "label": ""
+        }
+    ],
+    "answer": "CMMI"
+},
+{
+    "id": 41,
+    "question": "La práctica de separar responsabilidades para minimizar riesgos se conoce como _______ de funciones.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "segregacion",
+            "label": ""
+        }
+    ],
+    "answer": "segregacion"
+},
+{
+    "id": 42,
+    "question": "Un código que aprovecha una vulnerabilidad de software para realizar acciones no deseadas se llama _______.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "exploit",
+            "label": ""
+        }
+    ],
+    "answer": "exploit"
+},
+{
+    "id": 43,
+    "question": "El uso de direcciones IP falsas para ocultar la identidad de un atacante se llama _______ de IP.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "spoofing",
+            "label": ""
+        }
+    ],
+    "answer": "spoofing"
+},
+{
+    "id": 44,
+    "question": "La práctica de actualizar regularmente el software para corregir vulnerabilidades se llama gestión de _______.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "patching",
+            "label": ""
+        }
+    ],
+    "answer": "patching"
+},
+{
+    "id": 45,
+    "question": "El método de protección que impide que un sistema ejecute código malicioso desconocido se llama _______ de ejecución.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "prevencion",
+            "label": ""
+        }
+    ],
+    "answer": "prevencion"
+},
+{
+    "id": 46,
+    "question": "Explica la diferencia entre la prueba de unidad y la prueba de integración en el contexto del desarrollo de software.",
+    "type": 2,
+    "answers": [
+        {
+            "id": "x",
+            "label": ""
+        }
+    ],
+    "answer": "x"
+},
+{
+    "id": 47,
+    "question": "Describe la importancia de la ética en el hacking ético y proporciona ejemplos de acciones éticas que un hacker ético debe seguir durante una prueba de penetración.",
+    "type": 2,
+    "answers": [
+      {
+          "id": "x",
+          "label": ""
+      }
+  ],
+  "answer": "x"
+},
+{
+    "id": 48,
+    "question": "Describe el proceso de identificación y evaluación de riesgos en la gestión de proyectos. ¿Qué herramientas y técnicas se utilizan comúnmente en este proceso? Proporciona ejemplos de posibles riesgos en un proyecto de construcción.",
+    "type": 2,
+    "answers": [
+      {
+          "id": "x",
+          "label": ""
+      }
+  ],
+  "answer": "x"
+},
+{
+    "id": 49,
+    "question": "Explica cómo funciona un ataque de phishing y proporciona consejos para prevenirlo.",
+    "type": 2,
+    "answers": [
+      {
+          "id": "x",
+          "label": ""
+      }
+  ],
+  "answer": "x"
+},
+{
+    "id": 50,
+    "question": "Describe la diferencia entre seguridad en el desarrollo de software (Secure SDLC) y la seguridad del software en producción, y por qué ambas son importantes.",
+    "type": 2,
+    "answers": [
+      {
+          "id": "x",
+          "label": ""
+      }
+  ],
+  "answer": "x"
+}
+]}

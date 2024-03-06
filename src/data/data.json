@@ -1,0 +1,974 @@
+{
+  "questions":
+  [
+    {
+        "id": 1,
+        "question": "La programación extrema (XP) es un enfoque de desarrollo de software que no favorece la comunicación cercana con el cliente.",
+        "type": 0,
+        "answers": [
+            {
+                "id": 1,
+                "label": "Verdadero"
+            },
+            {
+                "id": 2,
+                "label": "Falso"
+            }
+        ],
+        "answer": 2
+    },
+    {
+        "id": 2,
+        "question": "El principio de responsabilidad única sugiere que una clase debe tener solo una razón para cambiar.",
+        "type": 0,
+        "answers": [
+            {
+                "id": 1,
+                "label": "Verdadero"
+            },
+            {
+                "id": 2,
+                "label": "Falso"
+            }
+        ],
+        "answer": 1
+    },
+    {
+        "id": 3,
+        "question": "¿Qué fase del ciclo de vida de desarrollo de software se centra en la identificación de los requisitos del sistema?",
+        "type": 1,
+        "answers": [
+            {
+                "id": "a) Diseño",
+                "label": ""
+            },
+            {
+                "id": "b) Implementación",
+                "label": ""
+            },
+            {
+                "id": "c) Pruebas",
+                "label": ""
+            },
+            {
+                "id": "d) Ingeniería de requisitos",
+                "label": ""
+            }
+        ],
+        "answer": "d) Ingeniería de requisitos"
+    },
+    {
+        "id": 4,
+        "question": "¿Cuál es el objetivo de la prueba de regresión?",
+        "type": 1,
+        "answers": [
+            {
+                "id": "a) Probar nuevas características del software.",
+                "label": ""
+            },
+            {
+                "id": "b) Verificar que los errores corregidos no afecten las funcionalidades existentes.",
+                "label": ""
+            },
+            {
+                "id": "c) Evaluar el rendimiento del sistema.",
+                "label": ""
+            },
+            {
+                "id": "d) Validar los requisitos del usuario",
+                "label": ""
+            }
+        ],
+        "answer": "b) Verificar que los errores corregidos no afecten las funcionalidades existentes."
+    },
+    {
+        "id": 5,
+        "question": "¿Qué hace especial a la técnica de desarrollo de software conocida como TDD (Test-Driven Development)?",
+        "type": 1,
+        "answers": [
+            {
+                "id": "a) Desarrollo basado en prototipos.",
+                "label": ""
+            },
+            {
+                "id": "b) La escritura de pruebas antes del código.",
+                "label": ""
+            },
+            {
+                "id": "c) Enfoque en la documentación exhaustiva.",
+                "label": ""
+            },
+            {
+                "id": "d) Implementación sin pruebas.",
+                "label": ""
+            }
+        ],
+        "answer": "b) La escritura de pruebas antes del código."
+    },
+    {
+        "id": 6,
+        "question": "Discute la importancia de realizar pruebas de software y describe al menos tres tipos de pruebas que se pueden realizar durante el ciclo de vida del desarrollo.",
+        "type": 0,
+        "answers": [
+            {
+                "id": "",
+                "label": ""
+            }
+        ],
+        "answer": ""
+    },
+    {
+        "id": 7,
+        "question": "¿Qué es un ataque de fuerza bruta en el contexto de la seguridad de software?",
+        "type": 1,
+        "answers": [
+            {
+                "id": "a) Un ataque que utiliza la fuerza física para acceder a un sistema.",
+                "label": ""
+            },
+            {
+                "id": "b) Un ataque que busca debilidades en la encriptación.",
+                "label": ""
+            },
+            {
+                "id": "c) Un intento de adivinar contraseñas mediante la prueba sistemática de todas las combinaciones posibles.",
+                "label": ""
+            },
+            {
+                "id": "d) Un ataque que utiliza software malicioso para robar información.",
+                "label": ""
+            }
+        ],
+        "answer": "c) Un intento de adivinar contraseñas mediante la prueba sistemática de todas las combinaciones posibles."
+    },
+    {
+        "id": 8,
+        "question": "¿Cuál de las siguientes es una práctica recomendada para proteger contra ataques de inyección de código?",
+        "type": 1,
+        "answers": [
+            {
+                "id": "a) Utilizar cortafuegos avanzados.",
+                "label": ""
+            },
+            {
+                "id": "b) Validar y escapar adecuadamente las entradas de usuario.",
+                "label": ""
+            },
+            {
+                "id": "c) Ignorar las entradas de usuario para evitar errores.",
+                "label": ""
+            },
+            {
+                "id": "d) Desactivar las actualizaciones automáticas.",
+                "label": ""
+            }
+        ],
+        "answer": "b) Validar y escapar adecuadamente las entradas de usuario."
+    },
+    {
+        "id": 9,
+        "question": "¿Qué es la 'integridad de datos' en el contexto de seguridad informática?",
+        "type": 1,
+        "answers": [
+            {
+                "id": "a) Proteger la confidencialidad de la información.",
+                "label": ""
+            },
+            {
+                "id": "b) Garantizar que los datos no sean modificados de manera no autorizada.",
+                "label": ""
+            },
+            {
+                "id": "c) Autenticar la identidad de un usuario.",
+                "label": ""
+            },
+            {
+                "id": "d) Encriptar la comunicación entre sistemas.",
+                "label": ""
+            }
+        ],
+        "answer": "b) Garantizar que los datos no sean modificados de manera no autorizada."
+    },
+        {
+          "id": 10,
+          "question": "El principio de menor privilegio sugiere dar a los usuarios el menor acceso necesario para realizar sus tareas.",
+          "type": 0,
+          "answers": [
+              {
+                  "id": 1,
+                  "label": "Verdadero"
+              },
+              {
+                  "id": 2,
+                  "label": "Falso"
+              }
+          ],
+          "answer": 1
+      },
+      {
+          "id": 11,
+          "question": "La técnica que utiliza claves públicas y privadas para garantizar la autenticidad e _______ de la información es conocida como criptografía.",
+          "type": 2,
+          "answers": [
+              {
+                  "id": "integridad",
+                  "label": ""
+              }
+          ],
+          "answer": "integridad"
+      },
+      {
+          "id": 12,
+          "question": "El proceso de evaluar y corregir las vulnerabilidades en el software se llama análisis de _______.",
+          "type": 2,
+          "answers": [
+              {
+                  "id": "vulnerabilidades",
+                  "label": ""
+              }
+          ],
+          "answer": "vulnerabilidades"
+      },
+      {
+          "id": 13,
+          "question": "El uso de software malicioso para robar información o dañar sistemas se conoce como _______.",
+          "type": 2,
+          "answers": [
+              {
+                  "id": "ataque",
+                  "label": ""
+              }
+          ],
+          "answer": "ataque"
+      },
+      {
+          "id": 14,
+          "question": "¿Qué es DevOps y cuáles son sus principales principios?",
+          "type": 0,
+          "answers": [
+              {
+                  "id": "",
+                  "label": ""
+              }
+          ],
+          "answer": ""
+      },
+      {
+          "id": 15,
+          "question": "¿Qué son las aplicaciones sin servidor (serverless) y cómo están cambiando la forma en que se desarrollan las aplicaciones?",
+          "type": 0,
+          "answers": [
+              {
+                  "id": "",
+                  "label": ""
+              }
+          ],
+          "answer": ""
+      }
+    ]
+}
+
+
+
+[
+  {
+      "id": 16,
+      "question": "¿Qué es la automatización del desarrollo de software y cuáles son sus beneficios?",
+      "type": 0,
+      "answers": [
+          {
+              "id": "a) Es el proceso de eliminar la intervención humana en tareas repetitivas.",
+              "label": ""
+          },
+          {
+              "id": "b) Permite una entrega más rápida y confiable del software.",
+              "label": ""
+          },
+          {
+              "id": "c) Mejora la calidad del código al reducir errores humanos.",
+              "label": ""
+          },
+          {
+              "id": "d) Todas las anteriores.",
+              "label": ""
+          }
+      ],
+      "answer": "d) Todas las anteriores."
+  },
+  {
+      "id": 17,
+      "question": "¿Cómo está evolucionando la ingeniería de software para abordar la sostenibilidad y la eficiencia energética?",
+      "type": 0,
+      "answers": [
+          {
+              "id": "a) Optimizando algoritmos para reducir el consumo de recursos.",
+              "label": ""
+          },
+          {
+              "id": "b) Desarrollando aplicaciones que minimicen el uso de energía.",
+              "label": ""
+          },
+          {
+              "id": "c) Adoptando prácticas de diseño ecológico.",
+              "label": ""
+          },
+          {
+              "id": "d) Todas las anteriores.",
+              "label": ""
+          }
+      ],
+      "answer": "d) Todas las anteriores."
+  },
+  {
+      "id": 18,
+      "question": "La automatización del desarrollo de software no aporta beneficios significativos.",
+      "type": 0,
+      "answers": [
+          {
+              "id": "Falso",
+              "label": ""
+          },
+          {
+              "id": "Verdadero",
+              "label": ""
+          }
+      ],
+      "answer": "Falso"
+  },
+  {
+      "id": 19,
+      "question": "¿Qué es el hacking ético?",
+      "type": 1,
+      "answers": [
+          {
+              "id": "A) Violación de sistemas para obtener información confidencial.",
+              "label": ""
+          },
+          {
+              "id": "B) Acceso no autorizado a redes y sistemas.",
+              "label": ""
+          },
+          {
+              "id": "C) Práctica de probar sistemas informáticos en busca de vulnerabilidades.",
+              "label": ""
+          },
+          {
+              "id": "D) Desarrollo de malware para infectar sistemas.",
+              "label": ""
+          }
+      ],
+      "answer": "C) Práctica de probar sistemas informáticos en busca de vulnerabilidades."
+  },
+  {
+      "id": 20,
+      "question": "¿Cuál de las siguientes actividades NO es parte del proceso de hacking ético?",
+      "type": 1,
+      "answers": [
+          {
+              "id": "A) Escaneo de puertos.",
+              "label": ""
+          },
+          {
+              "id": "B) Explotación de vulnerabilidades sin autorización.",
+              "label": ""
+          },
+          {
+              "id": "C) Pruebas de penetración.",
+              "label": ""
+          },
+          {
+              "id": "D) Análisis de código fuente.",
+              "label": ""
+          }
+      ],
+      "answer": "B) Explotación de vulnerabilidades sin autorización."
+  },
+  {
+      "id": 21,
+      "question": "¿Cuál es el objetivo principal del hacking ético?",
+      "type": 1,
+      "answers": [
+          {
+              "id": "A) Causar daño a sistemas y redes.",
+              "label": ""
+          },
+          {
+              "id": "B) Obtener acceso no autorizado a información confidencial.",
+              "label": ""
+          },
+          {
+              "id": "C) Identificar y corregir vulnerabilidades en sistemas.",
+              "label": ""
+          },
+          {
+              "id": "D) Desarrollar software malicioso.",
+              "label": ""
+          }
+      ],
+      "answer": "C) Identificar y corregir vulnerabilidades en sistemas."
+  },
+  {
+      "id": 22,
+      "question": "¿Qué es la ingeniería social en el contexto del hacking ético?",
+      "type": 1,
+      "answers": [
+          {
+              "id": "A) La manipulación psicológica para obtener información confidencial.",
+              "label": ""
+          },
+          {
+              "id": "B) La creación de software malicioso.",
+              "label": ""
+          },
+          {
+              "id": "C) El análisis de código fuente.",
+              "label": ""
+          },
+          {
+              "id": "D) La auditoría de seguridad de una red.",
+              "label": ""
+          }
+      ],
+      "answer": "A) La manipulación psicológica para obtener información confidencial."
+  },
+  {
+      "id": 23,
+      "question": "¿Cuál de las siguientes acciones es una buena práctica ética durante una prueba de penetración?",
+      "type": 1,
+      "answers": [
+          {
+              "id": "A) Publicar los resultados sin permiso.",
+              "label": ""
+          },
+          {
+              "id": "B) Modificar datos en el sistema sin autorización.",
+              "label": ""
+          },
+          {
+              "id": "C) Informar al propietario del sistema sobre las vulnerabilidades encontradas.",
+              "label": ""
+          },
+          {
+              "id": "D) Vender la información a terceros.",
+              "label": ""
+          }
+      ],
+      "answer": "C) Informar al propietario del sistema sobre las vulnerabilidades encontradas."
+  },
+  {
+      "id": 24,
+      "question": "El hacking ético es ilegal y no tiene lugar en entornos empresariales.",
+      "type": 0,
+      "answers": [
+          {
+              "id": "Falso",
+              "label": ""
+          },
+          {
+              "id": "Verdadero",
+              "label": ""
+          }
+      ],
+      "answer": "Falso"
+  },
+  {
+      "id": 25,
+      "question": "Explica el concepto de 'phishing' y cómo se puede utilizar como técnica de hacking ético para evaluar la conciencia de seguridad de una organización.",
+      "type": 0,
+      "answers": [
+          {
+              "id": "",
+              "label": ""
+          }
+      ],
+      "answer": ""
+  },
+  {
+      "id": 26,
+      "question": "¿Cuál es el time box máximo para un Sprint?",
+      "type":
+
+
+
+
+      1,
+      "answers": [
+          {
+              "id": "a) 4 horas",
+              "label": ""
+          },
+          {
+              "id": "b) 15 minutos",
+              "label": ""
+          },
+          {
+              "id": "c) Depende del producto, proyecto o servicio, y hasta 4 semanas",
+              "label": ""
+          },
+          {
+              "id": "d) 2 horas",
+              "label": ""
+          }
+      ],
+      "answer": "c) Depende del producto, proyecto o servicio, y hasta 4 semanas"
+  },
+  {
+      "id": 27,
+      "question": "Los Scrum Masters se aseguran que el Scrum Team trabaja ajustándose a la teoría, prácticas y reglas de Scrum.",
+      "type": 1,
+      "answers": [
+          {
+              "id": "Verdadero",
+              "label": ""
+          },
+          {
+              "id": "Falso",
+              "label": ""
+          }
+      ],
+      "answer": "Verdadero"
+  },
+  {
+      "id": 28,
+      "question": "¿Cuándo comienza el segundo Sprint?",
+      "type": 0,
+      "answers": [
+          {
+              "id": "a) Inmediatamente después del primer sprint",
+              "label": ""
+          },
+          {
+              "id": "b) Cuando el CEO decide",
+              "label": ""
+          },
+          {
+              "id": "c) Cuando el Team decide",
+              "label": ""
+          },
+          {
+              "id": "d) Antes de que el primer Sprint termine",
+              "label": ""
+          }
+      ],
+      "answer": "c) Cuando el Team decide"
+  },
+  {
+      "id": 29,
+      "question": "¿Cuáles podrían ser las características de Scrum?",
+      "type": 0,
+      "answers": [
+          {
+              "id": "a) Todas",
+              "label": ""
+          },
+          {
+              "id": "b) Ninguna",
+              "label": ""
+          },
+          {
+              "id": "c) 1 y 3",
+              "label": ""
+          },
+          {
+              "id": "d) 1 y 2",
+              "label": ""
+          }
+      ],
+      "answer": "a) Todas"
+  },
+  {
+      "id": 30,
+      "question": "El tamaño óptimo del Scrum Team (Equipo Scrum) es lo suficientemente pequeño como para permanecer ágil y lo suficientemente grande como para completar una cantidad de trabajo, esto significa:",
+      "type": 0,
+      "answers": [
+          {
+              "id": "a) Debe ser menos a 3 integrantes",
+              "label": ""
+          },
+          {
+              "id": "b) Debe ser mayor a 9 integrantes",
+              "label": ""
+          },
+          {
+              "id": "c) Debe ser de 10 personas o menos",
+              "label": ""
+          },
+          {
+              "id": "d) Debe ser de 6 integrantes siempre",
+              "label": ""
+          }
+      ],
+      "answer": "c) Debe ser de 10 personas o menos"
+  }
+  ]
+  
+  [
+    {
+        "id": 31,
+        "question": "¿Cuál de los siguientes bloques solo está presente en Lean Canvas?",
+        "type": 1,
+        "answers": [
+            {
+                "id": "A. Relaciones con los clientes",
+                "label": ""
+            },
+            {
+                "id": "B. Recursos clave",
+                "label": ""
+            },
+            {
+                "id": "C. Métricas clave",
+                "label": ""
+            },
+            {
+                "id": "D. Actividades clave",
+                "label": ""
+            }
+        ],
+        "answer": "B. Recursos clave"
+    },
+    {
+        "id": 32,
+        "question": "¿Cuál de los siguientes bloques solo está presente en Lean Canvas?",
+        "type": 1,
+        "answers": [
+            {
+                "id": "A. Ventaja injusta",
+                "label": ""
+            },
+            {
+                "id": "B. Recursos clave",
+                "label": ""
+            },
+            {
+                "id": "C. Relaciones con los clientes",
+                "label": ""
+            },
+            {
+                "id": "D. Actividades clave",
+                "label": ""
+            }
+        ],
+        "answer": "A. Ventaja injusta"
+    },
+    {
+        "id": 33,
+        "question": "¿Cuál de los siguientes bloques solo está presente en el Business Model Canvas?",
+        "type": 1,
+        "answers": [
+            {
+                "id": "A. Problema",
+                "label": ""
+            },
+            {
+                "id": "B. Canales",
+                "label": ""
+            },
+            {
+                "id": "C. Solución",
+                "label": ""
+            },
+            {
+                "id": "D. Ventaja injusta",
+                "label": ""
+            }
+        ],
+        "answer": "D. Ventaja injusta"
+    },
+    {
+        "id": 34,
+        "question": "Elegir la respuesta correcta",
+        "type": 0,
+        "answers": [
+            {
+                "id": "A. El Business Model Canvas está dirigido a empresas nuevas y existentes. El Lean Canvas está dirigido solo a empresas de nueva creación",
+                "label": ""
+            },
+            {
+                "id": "B. El Business Model Canvas está dirigido a clientes, inversores, empresarios, consultores y asesores. El Lean Canvas está dirigido a emprendedores",
+                "label": ""
+            },
+            {
+                "id": "C. El Business Model Canvas enfatiza los canales y las relaciones con los clientes. El Lean Canvas no enfatiza los segmentos de clientes, ya que las startups pueden no tener clientes todavía",
+                "label": ""
+            },
+            {
+                "id": "D. Todo lo anterior es cierto",
+                "label": ""
+            }
+        ],
+        "answer": "D. Todo lo anterior es cierto"
+    },
+    {
+        "id": 35,
+        "question": "El CEO de una empresa de lean startup PROBABLEMENTE contrataría a alguien que es/ tiene _____.",
+        "type": 0,
+        "answers": [
+            {
+                "id": "A. Capaz de aprender rápidamente y adaptarse",
+                "label": ""
+            },
+            {
+                "id": "B. Al menos una maestría",
+                "label": ""
+            },
+            {
+                "id": "C. Muy experimentado y extremadamente detallado",
+                "label": ""
+            },
+            {
+                "id": "D. Más de 50 años de edad",
+                "label": ""
+            }
+        ],
+        "answer": "A. Capaz de aprender rápidamente y adaptarse"
+    },
+    {
+        "id": 36,
+        "question": "________________ se enfoca en la metodología Lean Startup, enfocada en generar nuevas ideas y llevarlas a prototipos para verificar si el mercado está buscando las soluciones que estás proponiendo.",
+        "type": 0,
+        "answers": [
+            {
+                "id": "A. Business Model Canvas",
+                "label": ""
+            },
+            {
+                "id": "B. Lean Startup",
+                "label": ""
+            },
+            {
+                "id": "C. Gestión de proyectos con implementación en cascada",
+                "label": ""
+            },
+            {
+                "id": "D. Gestión 3.0",
+                "label": ""
+            }
+        ],
+        "answer": "B. Lean Startup"
+    },
+    {
+        "id": 37,
+        "question": "El análisis de __________ se utiliza para evaluar la fortaleza, debilidades, oportunidades y amenazas en un proyecto.",
+        "type": 2,
+        "answers": [
+            {
+                "id": "SWOT",
+                "label": ""
+            }
+        ],
+        "answer": "SWOT"
+    },
+    {
+        "id": 38,
+        "question": "El método de __________ es un enfoque iterativo e incremental en la gestión de proyectos.",
+        "type": 2,
+        "answers": [
+            {
+                "id": "Agile",
+                "label": ""
+            }
+        ],
+        "answer": "Agile"
+    },
+    {
+        "id": 39,
+        "question": "El contrato de suma __________ es un contrato en el que el contratista recibe un pago fijo, independientemente de los costos reales.",
+        "type": 2,
+        "answers": [
+            {
+                "id": "lump",
+                "label": ""
+            }
+        ],
+        "answer": "lump"
+    },
+    {
+        "id": 40,
+        "question": "El análisis de __________ es una técnica utilizada para determinar la ruta crítica en un cronograma del proyecto.",
+        "type": 2,
+        "answers": [
+            {
+                "id": "PERT",
+                "label": ""
+            }
+        ],
+        "answer": "PERT"
+    }
+]
+
+
+[
+  {
+      "id": 41,
+      "question": "Describe brevemente las principales diferencias entre un enfoque predictivo y un enfoque adaptativo en la gestión de proyectos. Proporciona ejemplos de situaciones en las que cada enfoque sería más adecuado.",
+      "type": 0,
+      "answers": []
+  },
+  {
+      "id": 42,
+      "question": "¿Cuál de los siguientes describe mejor el concepto de restricción triple en la gestión de proyectos?",
+      "type": 1,
+      "answers": [
+          {
+              "id": "a) Costo, Calidad, Alcance",
+              "label": ""
+          },
+          {
+              "id": "b) Alcance, Tiempo, Recursos",
+              "label": ""
+          },
+          {
+              "id": "c) Riesgo, Calidad, Tiempo",
+              "label": ""
+          },
+          {
+              "id": "d) Alcance, Riesgo, Rentabilidad",
+              "label": ""
+          }
+      ],
+      "answer": "b) Alcance, Tiempo, Recursos"
+  },
+  {
+      "id": 43,
+      "question": "¿Qué fase del ciclo de vida del proyecto implica la identificación de las partes interesadas y sus necesidades?",
+      "type": 1,
+      "answers": [
+          {
+              "id": "a) Inicio",
+              "label": ""
+          },
+          {
+              "id": "b) Planificación",
+              "label": ""
+          },
+          {
+              "id": "c) Ejecución",
+              "label": ""
+          },
+          {
+              "id": "d) Seguimiento y control",
+              "label": ""
+          }
+      ],
+      "answer": "a) Inicio"
+  },
+  {
+      "id": 44,
+      "question": "¿Cuál de las siguientes actividades no se lleva a cabo durante la fase de planificación del proyecto?",
+      "type": 1,
+      "answers": [
+          {
+              "id": "a) Identificación de riesgos",
+              "label": ""
+          },
+          {
+              "id": "b) Desarrollo del presupuesto",
+              "label": ""
+          },
+          {
+              "id": "c) Implementación de cambios",
+              "label": ""
+          },
+          {
+              "id": "d) Definición de objetivos",
+              "label": ""
+          }
+      ],
+      "answer": "c) Implementación de cambios"
+  },
+  {
+      "id": 45,
+      "question": "La comunicación es una competencia clave en el modelo de competencias IPMA.",
+      "type": 1,
+      "answers": [
+          {
+              "id": "Verdadero",
+              "label": ""
+          },
+          {
+              "id": "Falso",
+              "label": ""
+          }
+      ],
+      "answer": "Verdadero"
+  },
+  {
+      "id": 46,
+      "question": "Los KPI (Indicadores Clave de Desempeño) son herramientas importantes para evaluar el progreso del proyecto según IPMA.",
+      "type": 1,
+      "answers": [
+          {
+              "id": "Verdadero",
+              "label": ""
+          },
+          {
+              "id": "Falso",
+              "label": ""
+          }
+      ],
+      "answer": "Verdadero"
+  },
+  {
+      "id": 47,
+      "question": "¿Qué es un 'penetration test'?",
+      "type": 1,
+      "answers": [
+          {
+              "id": "A) Un tipo de ataque de fuerza bruta.",
+              "label": ""
+          },
+          {
+              "id": "B) Una prueba de penetración.",
+              "label": ""
+          },
+          {
+              "id": "C) Una técnica de hacking.",
+              "label": ""
+          },
+          {
+              "id": "D) Una auditoría de seguridad de una red.",
+              "label": ""
+          }
+      ],
+      "answer": "B) Una prueba de penetración."
+  },
+  {
+      "id": 48,
+      "question": "El 'reconocimiento' es una fase común en las pruebas de penetración que implica recopilar información sobre el objetivo.",
+      "type": 1,
+      "answers": [
+          {
+              "id": "Verdadero",
+              "label": ""
+          },
+          {
+              "id": "Falso",
+              "label": ""
+          }
+      ],
+      "answer": "Verdadero"
+  },
+  {
+      "id": 49,
+      "question": "La ética es un aspecto importante del hacking ético, y los hackers éticos deben seguir un código de conducta ético.",
+      "type": 1,
+      "answers": [
+          {
+              "id": "Verdadero",
+              "label": ""
+          },
+          {
+              "id": "Falso",
+              "label": ""
+          }
+      ],
+      "answer": "Verdadero"
+  },
+  {
+      "id": 50,
+      "question": "Explica en detalle el proceso de reconocimiento en una prueba de penetración y menciona al menos dos técnicas que se utilizan durante esta fase.",
+      "type": 0,
+      "answers": []
+  }
+]

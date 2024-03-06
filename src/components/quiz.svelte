@@ -1,5 +1,5 @@
 <script>
-import data from './banco1.json';
+import data from '../data//banco2.json';
 
     const total = data.questions.length;
     const questions = data.questions;
@@ -74,7 +74,7 @@ import data from './banco1.json';
                 <h2 class="text-2xl">Pregunta {question.id}</h2>
                 <p class="text-balance mt-3">{question.question}</p>
                 <div class="inline-flex gap-3 mt-8">
-                    {#if question.type===2}
+                    {#if question.type===1}
                         {#each question.answers as { id, label }, i}
                             <label for={id} class="hover:cursor-pointer">{label}</label>
                             <input type="radio" name="answer" id={id} value={id} class="w-6" on:change={handleAnswer}>
@@ -100,8 +100,7 @@ import data from './banco1.json';
                 <h3 class="text-2xl text-center">Resultados </h3>                
                 {#each myAnswers as { id_question, question, answer, id_answer, correct_answer }, i}
                     <div class="flex flex-col ml-4 mt-4 space-y-2">
-                        <p>{id_question} - <span class="text-sm">{question}</span></p>
-                        {id_answer} {correct_answer}
+                        <p>{id_question} - <span class="text-sm">{question}</span></p>                        
                         {#if id_answer!==correct_answer}
                             <p class="bg-red-500 w-fit px-2 rounded-md">{answer.label}</p>
                         {:else}
